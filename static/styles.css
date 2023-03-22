@@ -1,0 +1,46 @@
+:root{
+    --dark_blue: #15133C;
+    --dark_grey: #73777B;
+    --mustard: #EC994B;
+    --off_white: #F5F5F5;
+}
+
+body{
+    background-color: var(--off_white);
+}
+.container{
+    padding: 60px 300px;
+}
+
+#main-heading{
+    background-color: var(--mustard);
+    color: var(--dark_blue);
+    padding: 30px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.btn{
+    background-color: var(--dark_blue);
+    border: 0;
+}
+.btn:hover{
+background-color: var(--mustard);
+}
+#input{
+    color: var(--mustard);
+
+}
+#output{
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+.about-morse-code{
+    margin-top: 50px;
+    text-align: justify;
+    color: var(--dark_blue);
+}
+.footer{
+    margin-top: 20px;
+}
